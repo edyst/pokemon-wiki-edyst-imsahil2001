@@ -109,6 +109,7 @@ body {
 	color: #fff;
 	padding: 15px 45px;
 	border-radius: 2px;
+	background-color: #0000;
 }
 
 .header-learn {
@@ -238,7 +239,7 @@ body {
 	margin: 0 auto;
 	-ms-grid-columns: 220px 200px 1fr;
 	grid-template-columns: 220px 200px 1fr;
-	-ms-grid-rows: (200px) [4];
+
 	grid-template-rows: repeat(4, 200px);
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
@@ -407,6 +408,7 @@ body {
 	border: 1.5px solid #fff;
 	padding: 15px 90px;
 	border-radius: 2px;
+	background-color: #0000;
 }
 
 .card {
@@ -703,6 +705,7 @@ body {
 	color: #fff;
 	padding: 15px 80px;
 	cursor: pointer;
+	background-color: #0000;
 }
 
 .footer {
