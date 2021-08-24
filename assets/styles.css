@@ -1,0 +1,250 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+	border-bottom: 0.5px solid rgba(128, 128, 128, 0.281);
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.header img {
+	text-align: left;
+	margin-left: 350px;
+	width: 100px;
+}
+
+.header-search {
+	text-align: center;
+	width: 175px;
+	border: 1px solid #cfcdcd;
+	padding: 5px 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding-left: 20px;
+	font-size: 20px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.header-search i {
+	font-size: 12px;
+	margin-right: 2px;
+	color: #9e9e9e;
+}
+
+.header-search input {
+	outline: none;
+	border: none;
+}
+
+.header-icons {
+	text-align: right;
+	margin-right: 340px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.header-icons i {
+	margin-right: 20px;
+}
+
+.header-icons img {
+	margin-left: 1px;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+
+main {
+	background-color: #f7f7f7;
+}
+
+.main {
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 57%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.main-img {
+	width: 120px;
+	margin-left: 60px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 200px;
+}
+
+.main-img img {
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.main-info {
+	margin-right: 35px;
+}
+
+.main-info-1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 250px;
+}
+
+.main-info-1 h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.main-info-1 a {
+	text-decoration: none;
+	color: white;
+	background-color: #0095f6;
+	border-radius: 3px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.main-info-1 a:hover {
+	background-color: #4646f2;
+}
+
+.main-info-1 .follow {
+	padding: 5px 15px;
+}
+
+.main-info-1 .arrow {
+	padding: 5px 10px;
+}
+
+.main-info-2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 325px;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.main-info-3 h3 {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.story {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-left: 400px;
+	width: 700px;
+	margin-top: 50px;
+}
+
+.story-info img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #a57e2a;
+}
+
+.story-info h3 {
+	font-size: 13px;
+}
+
+.post {
+	width: 940px;
+	border-top: 1px solid lightgrey;
+	margin: 40px auto;
+}
+
+.post h3 {
+	font-size: 11px;
+	line-height: 46px;
+	font-weight: bold;
+	margin-left: 450px;
+	color: gray;
+	letter-spacing: 0.3px;
+}
+
+.post span {
+	padding-top: 15px;
+	margin-right: 20px;
+	border-top: 1px solid black;
+	color: black;
+}
+
+.post .grid {
+	margin-top: 20px;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 55%;
+	-ms-grid-rows: (300px) [5];
+	grid-template-rows: repeat(5, 300px);
+	grid-column-gap: 20px;
+	margin-left: 45px;
+}
+
+.post .grid img {
+	width: 270px;
+	height: 275px;
+}
+
+i {
+	cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
